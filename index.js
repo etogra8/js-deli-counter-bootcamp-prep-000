@@ -17,6 +17,11 @@ function nowServing(katzDeliLine) {
   }
 }
 
+
+
+
+
+
 function currentLine(katzDeliLine) {
   var name = katzDeliLine;
   var i = katzDeliLine.length;
