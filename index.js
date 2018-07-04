@@ -18,12 +18,12 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var name = katzDeliLine;
+  var name = katzDeliLine[0];
   var i = katzDeliLine.length;
   var count = 0;
   while (count < i) {
     count++;
-    return `The line is currently: 1. ${name[0]}.`;
+    return `The line is currently: 1. ${name[0]}, 2. ${name[1]}, 3. ${name[2]}.`;
   }
   return "The line is currently empty.";
 }
