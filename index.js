@@ -25,5 +25,7 @@ function currentLine(katzDeliLine) {
     line.push(' ' +[i + 1]+ '. ' +katzDeliLine[i]);
     i++;
   }
-  if()
+  if(i === 0){
+    
+  }
 }
