@@ -18,7 +18,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var name = katzDeliLine[0];
+  var name = katzDeliLine;
   var i = katzDeliLine.length;
   var count = 0;
   while (count < i) {
